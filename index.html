@@ -39,7 +39,7 @@
                 <img src="1.jpg" alt="Building" class="hero-image">
                 
                 <div class="overlay-card">
-                    <img src="4.jpg" alt="Building" class="hero-image">
+                    <img src="4.jpg" alt="Overlay Image" class="hero-image">
                 </div>
             </div>
 
@@ -53,9 +53,20 @@
 
     <footer>
         <p>Все хороше колись закінчується, ця сторінка теж)</p>
-	<p>Щоб дістатись суті необхідно копати вглиб. Ви вже докопали)</p>
-	<p>Наша адреса: прсоп. Лесі Українки 21</p>
+        <p>Щоб дістатись суті необхідно копати вглиб. Ви вже докопали)</p>
+        <p>Наша адреса: прсоп. Лесі Українки 21</p>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.mobile-menu-icon');
+            const navMenu = document.querySelector('.desktop-nav');
+
+            menuIcon.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+        });
+    </script>
 
 </body>
 </html>
