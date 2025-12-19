@@ -159,6 +159,7 @@ footer {
         width: 100%;
     }
 
+    /* На мобільному всі картинки однакові */
     .column-left .image-box:first-child {
         width: 100%;
         margin-left: 0;
@@ -177,8 +178,11 @@ footer {
     .overlay-card {
         position: static; 
         transform: none;
-        width: 90%;
-        margin: -30px auto 20px auto; 
+        
+        
+        width: 100%;        
+        margin: 30px 0 0 0;  
+        
         order: 2; 
     }
     
